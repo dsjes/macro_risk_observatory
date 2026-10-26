@@ -1,0 +1,6 @@
+.env
+secrets/
+logs/
+__pycache__/
+*.pyc
+macro_risk_observatory.md

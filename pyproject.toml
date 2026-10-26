@@ -1,0 +1,20 @@
+[project]
+name = "macro-risk-observatory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jess", email = "jesshsieh9@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow-providers-google>=22.7.0",
+    "apache-airflow[google]>=3.3.2",
+]
+
+[project.scripts]
+macro-risk-observatory = "macro_risk_observatory:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
