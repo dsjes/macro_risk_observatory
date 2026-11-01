@@ -8,8 +8,8 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "apache-airflow-providers-google>=22.7.0",
-    "apache-airflow[google]>=3.3.2",
+    "apache-airflow-providers-google==19.0.0",
+    "apache-airflow[google]==2.10.5",
 ]
 
 [project.scripts]
